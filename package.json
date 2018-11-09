@@ -32,10 +32,10 @@
 		"gatsby": ">=1"
 	},
 	"devDependencies": {
-		"release-it": "^7.6.3"
+		"release-it": "^7.6.3",
+		"auto-changelog": "^1.9.0"
 	},
 	"dependencies": {
-		"auto-changelog": "^1.9.0",
 		"babel-cli": "6.26.0",
 		"babel-preset-env": "1.7.0",
 		"babel-preset-react": "6.24.1",
