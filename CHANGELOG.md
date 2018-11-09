@@ -8,6 +8,23 @@ All notable changes in this project's [released versions](/releases) are documen
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/1.0.0...1.1.0)
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Scripts [`7aad341`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/7aad341a028bb24f6a0b9bb438af018b50d95ae8) <br>
+> 🐛 Scripts [`791e717`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/791e7170d7fa87dcf98f33bec7564833b11f9f6e) <br>
+
+![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Header [`e111f81`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/e111f811a95556b77ffe2eba356701292e371ad8) <br>
+
+<br>
+
+![hr](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/hr.png)
+
+<br>
+
 ### RELEASE: [1.0.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/0.2.0...1.0.0)
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
