@@ -1,7 +1,7 @@
 <p align="center">
   <br>
   <a href="https://twitter.com/MrAhmadAwais/">
-    <img src="https://on.ahmda.ws/ef9952/c" width="120"/>
+    <img src="https://on.ahmda.ws/19a553/c" width="120"/>
   </a>
 </p>
 
