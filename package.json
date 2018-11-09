@@ -24,9 +24,10 @@
 		"start": "babel -w src --out-dir . --ignore __tests__",
 		"watch": "babel -w src --out-dir . --ignore __tests__",
 		"log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Changelog update' && git push",
-		"release": "npm run build && release-it",
-		"release-major": "npm run build && release-it major",
-		"release-dry": "npm run build && release-it --dry-run"
+		"buildCommit": "&& git add . && git ci -m '📦 NEW: Plugin build' && git push",
+		"release": "npm run build && npm run buildCommit && release-it",
+		"release-major": "npm run build && npm run buildCommit && release-it major",
+		"release-dry": "npm run build && npm run buildCommit && release-it --dry-run"
 	},
 	"peerDependencies": {
 		"gatsby": ">=1"
