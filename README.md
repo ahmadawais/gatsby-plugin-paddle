@@ -43,12 +43,18 @@ yarn add gatsby-plugin-paddle
 
 ### STEP #2
 
-Add to ```gatsby-config.js```
+Add the plugin to `gatsby-config.js`
 
-```javascript
+```js
 module.exports = {
-  plugins: [
-    `gatsby-plugin-paddle`,
-  ]
-}
+	plugins: [
+		{
+			resolve: `gatsby-plugin-paddle`,
+			options: {
+				vendorId: 'YOUR_VENDOR_ID'
+			}
+		}
+	]
+};
+
 ```
