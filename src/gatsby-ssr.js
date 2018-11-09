@@ -12,7 +12,9 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
 			<script
 				key={`gatsby-plugin-paddle-vendor`}
 				type="text/javascript"
-				dangerouslySetInnerHTML={{ __html: `Paddle.Setup({ vendor: ${pluginOptions.vendorId} });` }}
+				dangerouslySetInnerHTML={{
+					__html: `Paddle.Setup({ vendor: ${pluginOptions.vendorId}, debug: ${pluginOptions.debug} });`
+				}}
 			/>
 		]);
 	}
