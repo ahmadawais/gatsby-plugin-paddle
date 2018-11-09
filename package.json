@@ -22,7 +22,11 @@
 	"scripts": {
 		"build": "babel src --out-dir . --ignore __tests__",
 		"start": "babel -w src --out-dir . --ignore __tests__",
-		"watch": "babel -w src --out-dir . --ignore __tests__"
+		"watch": "babel -w src --out-dir . --ignore __tests__",
+		"log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Update the changelog' && git push",
+		"release": "release-it",
+		"release-major": "release-it major",
+		"release-dry": "release-it --dry-run"
 	},
 	"peerDependencies": {
 		"gatsby": ">=1"
