@@ -24,9 +24,9 @@
 		"start": "babel -w src --out-dir . --ignore __tests__",
 		"watch": "babel -w src --out-dir . --ignore __tests__",
 		"log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Changelog update' && git push",
-		"release": "release-it",
-		"release-major": "release-it major",
-		"release-dry": "release-it --dry-run"
+		"release": "npm run build && release-it",
+		"release-major": "npm run build && release-it major",
+		"release-dry": "npm run build && release-it --dry-run"
 	},
 	"peerDependencies": {
 		"gatsby": ">=1"
