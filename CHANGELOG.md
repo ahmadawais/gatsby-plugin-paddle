@@ -8,6 +8,18 @@ All notable changes in this project's [released versions](/releases) are documen
 
 <br>
 
+### RELEASE: [1.3.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/1.2.0...1.3.0)
+
+![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Clearity [`e942636`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/e9426361a7df16ee2d890b55b294fb741784c4a3) <br>
+
+<br>
+
+![hr](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/hr.png)
+
+<br>
+
 ### RELEASE: [1.2.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/1.1.0...1.2.0)
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
