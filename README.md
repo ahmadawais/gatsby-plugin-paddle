@@ -25,7 +25,6 @@
   <br>
 </p>
 
-
 ## Getting Started
 
 ### STEP #1
@@ -35,6 +34,8 @@ Install using either npm or yarn:
 ```sh
 npm install gatsby-plugin-paddle
 ```
+
+**OR**
 
 ```sh
 yarn add gatsby-plugin-paddle
