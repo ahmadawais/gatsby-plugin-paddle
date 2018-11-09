@@ -6,5 +6,14 @@ import React from 'react';
  * @link https://paddle.com/docs/paddle-checkout-web/
  */
 exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
-	return setPostBodyComponents([<script key="gatsby-plugin-paddle" src="https://cdn.paddle.com/paddle/paddle.js" />]);
+	if (process.env.NODE_ENV === `production`) {
+		return setPostBodyComponents([
+			<script key="gatsby-plugin-paddle" src="https://cdn.paddle.com/paddle/paddle.js" />,
+			<script
+				key={`gatsby-plugin-paddle-vendor`}
+				type="text/javascript"
+				dangerouslySetInnerHTML={{ __html: `Paddle.Setup({ vendor: ${pluginOptions.vendorId} });` }}
+			/>
+		]);
+	}
 };
