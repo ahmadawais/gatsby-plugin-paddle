@@ -8,6 +8,23 @@ All notable changes in this project's [released versions](/releases) are documen
 
 <br>
 
+### RELEASE: [2.0.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/1.3.0...2.0.0)
+
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Option Vendor ID [`f488988`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/f4889884381c0e86bca1a520a5a071d7949f2a13) <br>
+> 📦 Option Vendor ID [`ca242c8`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/ca242c879af3b6aa515930b6f01347e98a3f5cb7) <br>
+
+![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+>  📖 Option Vendor ID [`7f5bec8`](https://github.com/ahmadawais/gatsby-plugin-paddle/commit/7f5bec864d8704037673c79025f4c630776f92af) <br>
+
+<br>
+
+![hr](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/hr.png)
+
+<br>
+
 ### RELEASE: [1.3.0](https://github.com/ahmadawais/gatsby-plugin-paddle/compare/1.2.0...1.3.0)
 
 ![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
