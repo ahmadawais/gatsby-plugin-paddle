@@ -1,7 +1,7 @@
 {
 	"name": "gatsby-plugin-paddle",
 	"description": "Gatsby plugin that adds paddle.js to your site.",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"author": "Ahmad Awais (https://twitter.com/MrAhmadAwais/)",
 	"repository": {
 		"type": "git",
